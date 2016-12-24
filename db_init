@@ -1,0 +1,6 @@
+CREATE DATABASE matches;
+USE matches;
+CREATE TABLE matches (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, player1h CHAR(32), player2h CHAR(32), mapdetails CHAR(255));
+CREATE TABLE players (id CHAR(32) NOT NULL PRIMARY KEY, name CHAR(255), first_time INT(1), nation CHAR(255));
+CREATE USER 'matches_query'@'localhost' IDENTIFIED BY 'queryer';
+GRANT DELETE, INSERT, SELECT, UPDATE ON matches.* TO 'matches_query'@'localhost';
