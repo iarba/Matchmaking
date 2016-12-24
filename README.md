@@ -13,3 +13,9 @@ This project requires a sql server on the local host(source can be changed to ac
 To configure the database, run the `db_init` script as such: `mysql -p -u root < db_init` . This script will create the database, tables as well as the user required to access the database.
 
 The files under the `src/` directory should be transferred to the server for viewing.
+
+## Somewhat relevant links
+
+Project made for a scrub-level tournament organised by [Hydronum](https://www.twitch.tv/hydronum).
+
+Come play along for our weekly games - all information [here](https://docs.google.com/spreadsheets/d/1scP9VmK15n-cxTyfVw2GAnVjvLPmBdSu_XsvoAsxaFY/edit)
