@@ -12,4 +12,4 @@ This project requires a sql server on the local host(source can be changed to ac
 
 To configure the database, run the `db_init` script as such: `mysql -p -u root < db_init` . This script will create the database, tables as well as the user required to access the database.
 
-The files should be transferred to the server for viewing, except for `README.md` and `db_init`.
+The files under the `src/` directory should be transferred to the server for viewing.
